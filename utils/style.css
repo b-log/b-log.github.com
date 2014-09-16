@@ -1,0 +1,299 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #DAE2CF;
+	font-family: '宋体'/*, sans-serif*/;
+	font-size: 13pt;
+	color: #3B3B3B;
+}
+
+hr {
+	border-bottom:1px dashed #efefef; 
+	border-left:none; 
+	border-right:none; 
+	border-top:none; 
+	height:0px
+}
+
+h1, h2, h3 {
+	margin: 10px;
+	padding: 10px;
+	letter-spacing: -2px;
+	/*text-transform: uppercase;*/
+	font-family: '宋体', serif;
+	font-weight: normal;
+	color: #4c5c37;
+}
+
+h1 {
+	font-size: 2em;
+/*	border-bottom:3px dashed #111;*/
+	border-bottom: 3px dashed #efefef;
+}
+
+h2 {
+	letter-spacing: 1px;
+	font-size: 1.2em;
+}
+
+h3 {
+	font-size: 0.8em;
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+ul, ol {
+}
+
+a {
+	text-decoration: none;
+	/*color: #4C5C37;*/
+	color: #3D2729;
+	border-color: #333333;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-style: dotted;
+
+}
+
+a:hover {
+	/*color: #F6B300;*/
+	/*color: #FFFFFF;
+	background-color:#5D7144;
+	*/
+	text-decoration: none;
+	color: #4C5C37;
+	border-color: #333333;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+	border-style: solid;
+}
+
+
+/* Header */
+
+#header-wrapper {
+}
+
+#header {
+	clear: both;
+	width: 65%;
+	margin: 0px auto;
+}
+
+/* Logo */
+
+
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	margin: 0px;
+	padding: 30px 0px;
+	text-transform: lowercase;
+	font-size: 4em;
+	font-weight: 400;
+	color: #FFF;
+}
+
+#logo h1 span {
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* Menu */
+
+
+#menu {
+	width: 75%;
+	height: 55px;
+	margin: 0px auto;
+	padding: 10px 10px 10px 10px;
+	background: #5D7144;
+}
+
+
+
+#menu a {
+	display: block;
+	letter-spacing: 1px;
+	margin: 0px 10px;
+	line-height: 55px;
+	padding: 0 20px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: '宋体', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: underline;
+}
+
+#menu .current_page_item a {
+}
+
+/* Page */
+
+
+
+#page {
+	overflow: hidden;
+	width: 75%;
+	margin: 0px auto;
+	padding: 42px 10px 30px 10px;
+	background: #FFFFFF;
+}
+
+/* Content */
+
+#content {
+	float: center;
+	width: 100%;
+}
+#content p {
+	margin: 0;
+	padding-top: 40px;
+	line-height: normal;
+	font-size: 17px;
+	letter-spacing: 2px;
+	/*text-transform: uppercase;*/
+	text-align: left;
+	color: #000;
+}
+.post {
+	margin-bottom: 15px;
+}
+
+.post-alt
+{
+}
+
+.post .title {
+	height: 38px;
+	margin-bottom: 10px;
+	padding: 12px 0 0 0px;
+	font-size: 28px;
+	color: #4C5C37;
+}
+
+.post .title a {
+	border: none;
+	color: #3D2729;
+}
+
+.post .meta {
+	margin-bottom: 30px;
+	padding: 5px 0px 15px 0px;
+	text-align: left;
+	font-weight: normal;
+}
+
+.post .meta .date {
+	float: left;
+}
+
+.post .meta .posted {
+	float: right;
+}
+
+.post .meta a {
+}
+
+.post .entry {
+	padding: 0px 0px 20px 0px;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.links {
+	display: inline-block;
+	height: 30px;
+	padding: 30px 0px 0px 0px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #F6B300;
+}
+
+.button
+{
+	padding: 5px 5px;
+	background: #6F8651;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+
+/* Footer */
+
+#footer {
+	height: 45px;
+	width: 75%;
+	margin: 0 auto;
+	padding: 0px 10px 35px 10px;
+	background: #748D55;
+	border-top: 1px solid #A59282;
+	font-family: '宋体', serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 40px;
+	line-height: normal;
+	font-size: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+
+/* classes for items of todo lists */
+code {
+    font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0px 3px;
+    display: inline-block;
+    color: #52595d;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
