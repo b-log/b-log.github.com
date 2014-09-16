@@ -4,7 +4,7 @@
 <head>
 	<title>Binotes!</title>
 <link rel="stylesheet" href="style.css" type="text/css">
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
 <div id="menu">
