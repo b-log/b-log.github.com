@@ -4,11 +4,11 @@
 <head>
 	<title>Binotes!</title>
 <link rel="stylesheet" href="style.css" type="text/css">
-<meta charset="GB2312">
+<meta charset="utf-8">
 </head>
 <body>
 <div id="menu">
-	<p style="color: #fff; font-size: 27pt; text-align: left">必  记</p>
+	<p style="color: #fff; font-size: 27pt; text-align: left">蹇� 璁�</p>
 </div>
 
 <div id="wrapper">
