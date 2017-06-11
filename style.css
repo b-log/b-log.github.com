@@ -1,8 +1,9 @@
 body{
-    background: #000;
+    background: #2b303b;
     font-family: Georgia, Palatino, serif;
     /*color: #EEE;*/
-    color: #44ee44;
+    /*color: #96B5B4;*/
+    color: #C0C5CE;
     font-size: 200%;
     line-height: 1;
     padding: 30px;
@@ -11,6 +12,7 @@ body{
 }
 h1, h2, h3, h4 {
     font-weight: 400;
+    /*color: #EBCB8B;*/
 }
 h1, h2, h3, h4, h5, p {
     margin-bottom: 24px;
@@ -21,18 +23,18 @@ h1, h2, h3, p {
 }
 
 h1 {
-    border-left:.5em solid #eee;
+    border-bottom:.2em solid #eee;
     font-size: 48px;
-    background-color: #111;
+    background-color: #222;
 }
 h2 {
-    border-left:.5em solid #eee;
+    border-bottom:.1em solid #eee;
     font-size: 36px;
     margin: 24px 0 6px;
     background-color: #222;
 }
 h3 {
-    border-left:.5em solid #eee;
+    border-bottom:.1em solid #eee;
     font-size: 24px;
     background-color: #333;
 }
@@ -44,11 +46,11 @@ h5 {
 }
 a:link {
     /*color: #61BFC1;*/
-    color: #44ee44;
+    color: #96B5B4;
     text-decoration: none;
     /*border-bottom-style: dotted;*/
     /*outline: 1px dotted gray;*/
-    border-bottom: 1px dotted #44ee44;
+    border-bottom: 1px dotted #96B5B4;
     padding-bottom: 4px;
     margin: 0;
     padding: 0;
@@ -285,22 +287,24 @@ div.tableNote {
     text-align: center;
 }
 table, tr, th, td {
-    border-style: none;
+    /*border-style: none;*/
     background-color:#222;
-    border-spacing: 0;
-    color : #44ee44;
+    /*border-spacing: 0;*/
+    /*color : #96B5B4;*/
 }
 table {
-    border-left: 1px solid #ffffff;
-    border-right: 1px solid #ffffff;
+    /*border-left: 1px solid #ffffff;*/
+    /*border-right: 1px solid #ffffff;*/
+    background-color:#96B5B4;
 }
 thead {
 }
 tfoot {
 }
 tr, th, td {
-    padding: 2px;
-    border: 1px solid #ffffff;
+    padding: 10px;
+    /*border: 1px solid #ffffff;*/
+    /*cellspacing:1;*/
 }
 tr {
 }
