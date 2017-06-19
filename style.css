@@ -12,6 +12,7 @@ body{
 }
 h1, h2, h3, h4 {
     font-weight: 400;
+    max-width: 612px;
     /*color: #EBCB8B;*/
 }
 h1, h2, h3, h4, h5, p {
@@ -21,9 +22,15 @@ h1, h2, h3, h4, h5, p {
 h1, h2, h3, p {
   padding-left: 20px;
 }
-
+p {
+    background-color: #1f1f1f;
+    padding: 0 2em;
+    margin-left:24px;
+    max-width: 476px;
+}
 h1 {
     border-bottom:.2em solid #eee;
+    /*margin-bottom: 0;*/
     font-size: 48px;
     background-color: #222;
 }
@@ -67,6 +74,11 @@ a:visited {
 ul, ol {
     padding: 0;
     margin: 0;
+    border-left:2px solid #eee;
+    background-color: #1f1f1f;
+    padding: 0 2em;
+    margin-left:24px;
+    max-width: 476px;
 }
 li {
     line-height: 24px;
